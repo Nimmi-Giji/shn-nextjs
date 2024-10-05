@@ -2,11 +2,12 @@ import { useUser } from "@clerk/nextjs";
 import { CardContent, Container, Typography } from "@mui/material";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import Container from "@mui/material";
 
 export default function Flashcard(){
     const { isLoaded, isSignedIn, user } = useUser();
     const [flashCards, setFlashCards] = useState([]); //maintaining set of flashcards for each user
+
+    
     const router = useRouter(); //for navigation
     const handleCardClick = (id) =>{
         router.push(`/flashcard?id=${id}`)
