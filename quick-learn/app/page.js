@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Box, Typography, AppBar, Toolbar, Button} from '@mui/material';
-//import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
+import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import Link from 'next/link';
 
 export default function HomePage() {
@@ -11,8 +11,8 @@ export default function HomePage() {
           <Typography variant="h6" style={{ flexGrow: 1 }}>
             QuickLearn Flashcard AI
           </Typography>
-          {/*SignedOut>
-            {/*<Button color="inherit" component={Link} href="/sign-in">
+          {/*<SignedOut>
+            <Button color="inherit" component={Link} href="/sign-in">
               Login
             </Button>
             <Button color="inherit" component={Link} href="/sign-up">
@@ -21,8 +21,7 @@ export default function HomePage() {
           </SignedOut>
           <SignedIn>
             <UserButton />
-          </SignedIn>
-          */}
+          </SignedIn>  */} 
         </Toolbar>
       </AppBar>
       

@@ -6,12 +6,13 @@ import {
     Button,
     Typography,
     Box,
+    Dialog,
+    DialogActions,
     DialogTitle,
     DialogContent,
     DialogContentText,
 } from '@mui/material'
 import { writeBatch } from 'firebase/firestore'
-//import { unstable_renderSubtreeIntoContainer } from 'react-dom/cjs/react-dom.development'
 export default function Generate() {
     const [text, setText] = useState('')
     const [flashcards, setFlashcards] = useState([])
@@ -60,7 +61,7 @@ export default function Generate() {
             setFlashcards(data)
         } catch(error) {
             console.error('Error generating flashcards:',error)
-            alert('An error occured while generating flashcards.Try again.')
+            alert('An error occured while generating flashcards.Try again.')   
         }
     }
     return (
