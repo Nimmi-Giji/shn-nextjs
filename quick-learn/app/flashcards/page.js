@@ -8,6 +8,9 @@ export default function Flashcard(){
     const { isLoaded, isSignedIn, user } = useUser();
     const [flashCards, setFlashCards] = useState([]); //maintaining set of flashcards for each user
     const router = useRouter(); //for navigation
+    const handleCardClick = (id) =>{
+        router.push(`/flashcard?id=${id}`)
+    }
 
 
     useEffect(() => {
