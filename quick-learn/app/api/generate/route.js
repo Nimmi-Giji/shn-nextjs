@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { NextResponse } from "next/server";
 
-const systemPrompt = `You are a flashcard generator. Given a TOPIC ON ADDITION, create exactly 10 flashcards. 
+const systemPrompt = `You are a flashcard generator. Given a topic, create exactly 10 flashcards. 
 Each flashcard should feature a term or concept related to the given topic on the front, and a brief explanation or definition of that term/concept on the back. 
 Ensure that the flashcards cover different important aspects or key details related to the topic.
 Return the flashcards in the following JSON format:
