@@ -39,12 +39,6 @@ export default function HomePage() {
           Learn More
         </Button>
       </Box>
-      
-      <Box sx={{ my: 6 }}>
-        <Typography variant="h4" component="h2" gutterBottom>
-          Features
-        </Typography>
-      </Box>
     </>
   );
 }

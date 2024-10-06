@@ -5,10 +5,11 @@
 
 
 # Project Name
-Long Description about project. This project do that. This project is awesome...
+QuickLearn is an AI flashcards generator
 ## Team members
-1. [Name 1](https://github.com/TH-Activities/saturday-hack-night-template)
-2. [Name 2](https://github.com/TH-Activities/saturday-hack-night-template)
+1. Ganga SajeevKumar
+2. Nimmi M Giji
+3. Niranjanaa Manoj
 ## Link to product walkthrough
 [link to video](Link Here)
 ## How it Works ?
