@@ -11,13 +11,14 @@ QuickLearn is an AI flashcards generator
 2. Nimmi M Giji
 3. Niranjanaa Manoj
 ## Link to product walkthrough
-[link to video](Link Here)
+
+[link to video]
+
+https://github.com/user-attachments/assets/1afd9785-7173-4233-b77a-b66a6242bfd4
+
 ## How it Works ?
-1. Explaining the working of project
-2. Embed video of project demo
+Just input a small description of the topic and cards will be generated for you !
 ## Libraries used
-Library Name - Version
-## How to configure
-Instructions for setting up project
-## How to Run
-Instructions for running
+Next.js
+## How to configure and Run
+Clone this repo and run the development server via npm run dev
