@@ -14,7 +14,7 @@ QuickLearn is an AI flashcards generator
 
 [link to video]
 
-https://github.com/user-attachments/assets/1afd9785-7173-4233-b77a-b66a6242bfd4
+https://github.com/user-attachments/assets/cd523b94-a148-4f49-aaf2-a506e64c246f
 
 ## How it Works ?
 Just input a small description of the topic and cards will be generated for you !
